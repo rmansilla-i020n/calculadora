@@ -1,0 +1,41 @@
+
+
+body{
+
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+table, td, th, caption{
+
+    color: white;
+    border: 5px solid white;
+    border-collapse: collapse;
+}
+
+
+button{
+
+    width: 75px;
+    height: 75px;
+    font-size: 25px;
+}
+
+/*aplicando estilo a la pantalla */
+
+#display{
+
+    width: 315px;
+    height: 75px;
+}
+
+/*definiendo clase para aliniar a los elementos */
+.contenedor{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+
+}
