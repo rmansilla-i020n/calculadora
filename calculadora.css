@@ -28,6 +28,9 @@ button{
 
     width: 315px;
     height: 75px;
+    font-size: 70px;
+    text-align: right;
+
 }
 
 /*definiendo clase para aliniar a los elementos */
