@@ -10,7 +10,15 @@ function fnLimpiarPantalla(){
 //Definimos una funcion para marcar los numero en la pantalla desde los botonos 
 function fnMarcarNumero(n){
 
-    display.value = display.value + n;
+    if(!(display.value.includes("."))){
+
+        display.value = display.value + n;
+    }else if(n != "."){
+        display.value = display.value + n;
+
+    }
+
+        
 }
 
 //Definimos una funcion para recibir la operacion
